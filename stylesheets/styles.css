@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  padding:50px;
+  padding:35px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
@@ -15,12 +15,17 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
+h1, h2, h3, h6 {
+  line-height:0.6;
+}
+
+h6 {
+  font-size:32px;
+  font-weight: 500;
 }
 
 h1 {
-  font-size:28px;
+  font-size:26px;
   font-weight: 500;
 }
 
@@ -29,7 +34,7 @@ h2 {
   font-weight: 500;
 }
 
-h3, h4, h5, h6 {
+h3, h4, h5 {
   color:#494949;
   font-weight: 500;
 }
@@ -137,7 +142,7 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:11px;
+  font-size:9px;
   color:#999;
   display:block;
   text-align:center;
@@ -164,7 +169,8 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size:14px;
+  font-size:12px;
+  padding-top:3px;
   display:block;
   color:#222;
 }
@@ -173,6 +179,7 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  
 }
 
 small {
@@ -267,4 +274,17 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.circular-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden; 
+}
+
+.circular-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
