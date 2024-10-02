@@ -277,8 +277,8 @@ footer {
 }
 
 .circular-image {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden; 
 }
@@ -287,4 +287,6 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 10%;
+  zoom: 5;
 }
